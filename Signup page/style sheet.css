@@ -1,0 +1,203 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+     
+    background-color: rgb(200, 233, 233);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 20px 100px;
+
+}
+
+
+
+.container-box {
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(0px ,1fr));
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    width: 100%;
+}
+
+
+.imagee-Container {
+
+    height: 100%;
+    width: 100%;
+   
+    display: grid;
+    background-color: rgb(245, 255, 246);
+
+
+}
+
+.imageee {
+    background: url("icons/Autumn-amico\ 1.png") no-repeat center center;
+    background-size: cover;
+    height: 50%;
+    width: 70%;
+    margin: auto;
+
+
+}
+
+.form-container {
+
+    padding: 20px 20px;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 100%;
+}
+
+.container form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+h1 {
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    margin: 20px 0;
+
+}
+
+.container span {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #B0BAC3;
+
+}
+
+.container a {
+    color: rgb(30, 29, 29);
+    font-size: 13px;
+    text-decoration: none;
+    margin: 15px 15px;
+
+
+}
+
+.container button {
+    background-color: #73895D;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 15px 5px 15px 5px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    cursor: pointer;
+    width: 100%;
+
+}
+
+.container input {
+    border-radius: 10px;
+    margin: 8px 0;
+    padding: 0.5rem 1rem;
+    border: 1px solid rgb(182, 182, 233);
+    background: transparent;
+    font-size: 13px;
+    padding: 15px 40px;
+    width: 100%;
+    outline: none;
+    transition: 0.3s;
+}
+
+.form-container {
+
+    top: 0;
+    height: 100%;
+
+}
+
+.container input text {
+    text-align: left;
+}
+
+.lgn {
+    margin-top: 15px;
+}
+
+.logo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.image {
+    background: url("icons/Vector.png") no-repeat center center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+
+.inputfiled {
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.inputfiled img {
+    position: absolute;
+    left: 16px;
+    top: 40px;
+    width: 20px;
+}
+
+.inputfiled label {
+    float: left;
+    color: #000000;
+}
+
+.text {
+
+    font-size: 1.5rem;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.aladin-regular {
+    font-family: "Aladin", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
